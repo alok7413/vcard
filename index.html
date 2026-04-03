@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Sinclair · Link in Bio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <div class="bg-scene" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main class="page">
+    <div class="container">
+
+      <!-- Toggle -->
+      <div class="toggle-wrap fade-up d0">
+        <button class="toggle-btn" onclick="toggleTheme()" aria-label="Toggle theme">
+          <i id="t-icon" class="fa-solid fa-sun t-icon"></i>
+          <div class="t-track">
+            <div class="t-knob"></div>
+          </div>
+          <span id="t-label" class="t-label">Light</span>
+        </button>
+      </div>
+
+      <!-- Avatar + Profile -->
+      <div class="fade-up d1" style="display:flex;flex-direction:column;align-items:center;gap:20px;">
+        <div class="avatar-wrap">
+          <div class="ring-outer">
+            <div class="ring-inner">
+              <img src="images/profile_img.jpg" alt="aallookk" />
+            </div>
+          </div>
+          <div class="status-dot" title="Open for collabs"></div>
+        </div>
+
+        <div class="profile-block">
+          <span class="handle" style="text-transform: lowercase" >@aallookk</span>
+          <h1 class="name">Alok <em>kumar</em></h1>
+          <p class="tagline">
+            Creative director &amp; visual storyteller.<br />
+            Turning light into legacy, one frame at a time.
+          </p>
+          <div class="pills" style="margin-top:4px;">
+            <span class="pill">Photography</span>
+            <span class="pill">Lifestyle</span>
+            <span class="pill">Travel</span>
+            <span class="pill">Fashion</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-card fade-up d2">
+        <div class="stat">
+          <span class="stat-num">2.4M</span>
+          <span class="stat-label">Instagram</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num">480K</span>
+          <span class="stat-label">YouTube</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num">380+</span>
+          <span class="stat-label">Collabs</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <span class="stat-num">96%</span>
+          <span class="stat-label">Engage</span>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="links-col">
+
+        <a href="https://www.instagram.com/aallookk/" class="glass link-btn fade-up d3">
+          <div class="btn-icon ic-ig"><i class="fa-brands fa-instagram"></i></div>
+          <div class="btn-content">
+            <span class="btn-title">Instagram</span>
+            <span class="btn-sub">2.4M followers · Daily drops</span>
+          </div>
+          <i class="fa-solid fa-arrow-right btn-arrow"></i>
+        </a>
+
+        <a href="https://www.youtube.com/@bannerfury" class="glass link-btn fade-up d4">
+          <div class="btn-icon ic-yt"><i class="fa-brands fa-youtube"></i></div>
+          <div class="btn-content">
+            <span class="btn-title">YouTube</span>
+            <span class="btn-sub">480K · New video every Friday</span>
+          </div>
+          <i class="fa-solid fa-arrow-right btn-arrow"></i>
+        </a>
+
+        <a href="https://www.threads.com/aallookk/" class="glass link-btn fade-up d5">
+          <div class="btn-icon ic-th"><i class="fa-brands fa-threads"></i></div>
+          <div class="btn-content">
+            <span class="btn-title">Threads</span>
+            <span class="btn-sub">Raw thoughts &amp; behind the scenes</span>
+          </div>
+          <i class="fa-solid fa-arrow-right btn-arrow"></i>
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100066719777472" class="glass link-btn fade-up d6">
+          <div class="btn-icon ic-fb"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="btn-content">
+            <span class="btn-title">Facebook</span>
+            <span class="btn-sub">Community &amp; live sessions</span>
+          </div>
+          <i class="fa-solid fa-arrow-right btn-arrow"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/aallookk/" class="glass link-btn fade-up d7">
+          <div class="btn-icon ic-li"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="btn-content">
+            <span class="btn-title">LinkedIn</span>
+            <span class="btn-sub">Professional &amp; speaking enquiries</span>
+          </div>
+          <i class="fa-solid fa-arrow-right btn-arrow"></i>
+        </a>
+
+        <a href="mailto:alok814101@gmail.com" class="glass link-btn fade-up d8"
+          style="border-color:rgba(176,125,74,0.28);">
+          <div class="btn-icon ic-mail"><i class="fa-solid fa-paper-plane"></i></div>
+          <div class="btn-content">
+            <span class="btn-title">Business Inquiry</span>
+            <span class="btn-sub">Brand deals · Campaigns · Shoots</span>
+          </div>
+          <i class="fa-solid fa-arrow-right btn-arrow"></i>
+        </a>
+
+      </div>
+
+      <!-- Featured Work -->
+      <div style="width:100%;display:flex;flex-direction:column;gap:13px;" class="fade-up d9">
+        <div class="section-header">
+          <span class="section-title">Featured Work</span>
+          <div class="section-line"></div>
+        </div>
+        <div class="cards-grid">
+
+          <a href="https://youtu.be/R_TykrrpoLM" class="glass feat-card">
+            <div class="feat-thumb">
+              <div class="feat-thumb-bg thumb-yt-bg">
+                <div class="play-icon"
+                  style="background:rgba(220,50,50,0.18);border:1px solid rgba(200,50,50,0.3);color:#e05050;">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <span class="tb tb-yt">YouTube</span>
+              </div>
+            </div>
+            <div class="feat-info">
+              <p class="feat-title">Ganpati Bappa Morya</p>
+              <div class="feat-meta">
+                <i class="fa-solid fa-eye" style="font-size:0.58rem;color:var(--accent);"></i>
+                <span>2.1M views · 18 min</span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="glass feat-card">
+            <div class="feat-thumb">
+              <div class="feat-thumb-bg thumb-col-bg">
+                <div class="play-icon"
+                  style="background:var(--accent-light);border:1px solid rgba(176,125,74,0.25);color:var(--accent);">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="tb tb-col">Collab</span>
+              </div>
+            </div>
+            <div class="feat-info">
+              <p class="feat-title">× Maison Lumière SS '25 Campaign</p>
+              <div class="feat-meta">
+                <i class="fa-solid fa-heart" style="font-size:0.58rem;color:#c084fc;"></i>
+                <span>940K likes · Editorial</span>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="glass cta-strip fade-up d10">
+        <p class="cta-heading">Let's create something<br />unforgettable together.</p>
+        <p class="cta-sub">Open for brand collaborations &amp; creative campaigns in 2025.</p>
+        <a href="mailto:alok814101@gmail.com" class="cta-btn">
+          <i class="fa-solid fa-envelope"></i>
+          Get in Touch
+        </a>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer fade-up d11">
+        <p class="footer-txt">© 2025 Alok kumar · All rights reserved</p>
+        <p class="footer-txt">Crafted with ♥ by <a href="#">Alok kumar</a></p>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', next);
+      const icon = document.getElementById('t-icon');
+      const label = document.getElementById('t-label');
+      if (next === 'dark') {
+        icon.className = 'fa-solid fa-moon t-icon';
+        label.textContent = 'Dark';
+      } else {
+        icon.className = 'fa-solid fa-sun t-icon';
+        label.textContent = 'Light';
+      }
+      try { localStorage.setItem('theme', next); } catch (e) { }
+    }
+
+    // Restore saved preference on load
+    (function () {
+      try {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          const icon = document.getElementById('t-icon');
+          const label = document.getElementById('t-label');
+          if (icon) icon.className = 'fa-solid fa-moon t-icon';
+          if (label) label.textContent = 'Dark';
+        }
+      } catch (e) { }
+    })();
+  </script>
+</body>
+
+</html>
